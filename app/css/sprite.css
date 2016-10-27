@@ -1,0 +1,204 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.ico.ico-benefit {
+  background-image: url(../img/sprite.png);
+  background-position: -122px -102px;
+  width: 60px;
+  height: 51px;
+}
+.ico.ico-comment {
+  background-image: url(../img/sprite.png);
+  background-position: -269px -160px;
+  width: 20px;
+  height: 16px;
+}
+.ico.ico-faq-2 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -204px;
+  width: 51px;
+  height: 51px;
+}
+.ico.ico-faq {
+  background-image: url(../img/sprite.png);
+  background-position: -257px -187px;
+  width: 17px;
+  height: 16px;
+}
+.ico.ico-idea {
+  background-image: url(../img/sprite.png);
+  background-position: -199px -102px;
+  width: 54px;
+  height: 51px;
+}
+.ico.ico-m1 {
+  background-image: url(../img/sprite.png);
+  background-position: -257px 0px;
+  width: 53px;
+  height: 45px;
+}
+.ico.ico-m2 {
+  background-image: url(../img/sprite.png);
+  background-position: -257px -45px;
+  width: 46px;
+  height: 48px;
+}
+.ico.ico-m3 {
+  background-image: url(../img/sprite.png);
+  background-position: -257px -136px;
+  width: 50px;
+  height: 24px;
+}
+.ico.ico-m4 {
+  background-image: url(../img/sprite.png);
+  background-position: -257px -93px;
+  width: 50px;
+  height: 43px;
+}
+.ico.ico-mouse {
+  background-image: url(../img/sprite.png);
+  background-position: -257px -160px;
+  width: 12px;
+  height: 27px;
+}
+.ico.ico-project {
+  background-image: url(../img/sprite.png);
+  background-position: -135px 0px;
+  width: 64px;
+  height: 51px;
+}
+.ico.ico-result {
+  background-image: url(../img/sprite.png);
+  background-position: -204px -204px;
+  width: 49px;
+  height: 51px;
+}
+.ico.ico-simple {
+  background-image: url(../img/sprite.png);
+  background-position: -61px -102px;
+  width: 61px;
+  height: 51px;
+}
+.ico.ico-support {
+  background-image: url(../img/sprite.png);
+  background-position: -289px -160px;
+  width: 17px;
+  height: 16px;
+}
+.ico.ico-user {
+  background-image: url(../img/sprite.png);
+  background-position: -274px -187px;
+  width: 13px;
+  height: 16px;
+}
+.ico.ico-working {
+  background-image: url(../img/sprite.png);
+  background-position: -135px -51px;
+  width: 61px;
+  height: 51px;
+}
+.ico.ico-zp-1 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -102px;
+  width: 61px;
+  height: 51px;
+}
+.ico.ico-zp-10 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -153px;
+  width: 54px;
+  height: 51px;
+}
+.ico.ico-zp-11 {
+  background-image: url(../img/sprite.png);
+  background-position: -54px -153px;
+  width: 53px;
+  height: 51px;
+}
+.ico.ico-zp-12 {
+  background-image: url(../img/sprite.png);
+  background-position: -68px 0px;
+  width: 67px;
+  height: 51px;
+}
+.ico.ico-zp-13 {
+  background-image: url(../img/sprite.png);
+  background-position: -107px -153px;
+  width: 51px;
+  height: 51px;
+}
+.ico.ico-zp-14 {
+  background-image: url(../img/sprite.png);
+  background-position: -153px -204px;
+  width: 51px;
+  height: 51px;
+}
+.ico.ico-zp-15 {
+  background-image: url(../img/sprite.png);
+  background-position: -199px 0px;
+  width: 58px;
+  height: 51px;
+}
+.ico.ico-zp-2 {
+  background-image: url(../img/sprite.png);
+  background-position: -209px -153px;
+  width: 47px;
+  height: 51px;
+}
+.ico.ico-zp-3 {
+  background-image: url(../img/sprite.png);
+  background-position: -158px -153px;
+  width: 51px;
+  height: 51px;
+}
+.ico.ico-zp-4 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 68px;
+  height: 51px;
+}
+.ico.ico-zp-5 {
+  background-image: url(../img/sprite.png);
+  background-position: -102px -204px;
+  width: 51px;
+  height: 51px;
+}
+.ico.ico-zp-6 {
+  background-image: url(../img/sprite.png);
+  background-position: -51px -204px;
+  width: 51px;
+  height: 51px;
+}
+.ico.ico-zp-7 {
+  background-image: url(../img/sprite.png);
+  background-position: -66px -51px;
+  width: 66px;
+  height: 51px;
+}
+.ico.ico-zp-8 {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -51px;
+  width: 66px;
+  height: 51px;
+}
+.ico.ico-zp-9 {
+  background-image: url(../img/sprite.png);
+  background-position: -199px -51px;
+  width: 55px;
+  height: 51px;
+}
