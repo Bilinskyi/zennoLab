@@ -172,6 +172,9 @@ header {
 	&.header-img {
 		min-height: 667px;
 		padding-bottom: 80px;
+		@media #{$bp-medium} {
+		      min-height: initial;
+		}
 		&.main-header {
 			background: url(../img/main-header.jpg) center top no-repeat;
 			background-size: cover;
@@ -226,6 +229,9 @@ header {
 			i {
 				margin-top: 93px;
 				margin-bottom: 25px;
+@media #{$bp-small} {
+      margin-top: 20px;
+}
 			}
 			.button {
 				margin-top: 25px;
@@ -289,11 +295,11 @@ header {
 			}
 		}
 		@media #{$bp-xsmall} {
-			font-size: 24px;
+			font-size: 20px;
 			margin-top: 15px;
 			span {
-				font-size: 22px;
-				line-height: 33px;
+				font-size: 17px;
+				line-height: 25px;
 			}
 		}
 	}
@@ -398,16 +404,7 @@ header {
 
 
 
-p {
-	color: #484848;
-	font-size: 16px;
-	font-weight: 300;
-	line-height: 25px;
-	@media #{$bp-small} {
-		font-size: 14px;
-		line-height: 20px;
-	}
-}
+
 
 
 .section-pruduct {
@@ -704,6 +701,10 @@ p {
 			margin-right: 29px;
 			@media #{$bp-large} {
 				margin-right: 15px;
+			}
+			@media #{$bp-small} {
+			      display: block;
+			      margin-bottom: 5px !important;
 			}
 			&:last-child {
 				margin-right: 0;
@@ -1261,5 +1262,210 @@ h1 {
 			margin: 10px 0;
 			line-height: 20px;
 		}
+	}
+}
+
+
+
+
+
+
+.centerY {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+
+.section-prof {
+	padding: 30px 0 80px;
+	border-bottom: 1px solid #e6e6e6;
+	@media #{$bp-small} {
+		text-align: center;
+		padding: 10px 0 40px;
+	}
+	.centerY {
+		@media #{$bp-small} {
+			margin-top: 25px;
+			position: static;
+			transform: translateY(0);
+		}
+	}
+	h1 {
+		text-align: center;
+		margin-bottom: 70px;
+		@media #{$bp-medium} {
+			margin-bottom: 40px;
+		}
+	}
+	img {
+		max-width: 440px;
+		height: auto;
+		width: 100%;
+	}
+	p {
+		margin: 0 0 40px;
+	}
+}
+
+
+
+
+
+
+
+
+
+.section-comment {
+	padding: 70px 0;
+	border-bottom: 1px solid #e6e6e6;
+	@media #{$bp-medium} {
+		padding: 50px 0;
+	}
+	@media #{$bp-small} {
+		padding: 40px 0;
+	}
+	h1 {
+		margin: 0;
+		text-align: center;
+	}
+	.comment-wrapp {
+		padding-top: 75px;
+		@media #{$bp-medium} {
+			padding-top: 55px;
+		}
+		@media #{$bp-small} {
+			padding-top: 40px;
+		}
+		&>div {
+			margin-bottom: 60px;
+			@media #{$bp-medium} {
+				margin-bottom: 30px;
+			}
+			@media #{$bp-small} {
+				margin-bottom: 25px;
+			}
+			@media #{$min-m} {
+				&:nth-child(3n+1) {
+					clear: left;
+				} 
+			}
+		}
+		img {
+			float: left;
+		}
+		.text-b {
+			margin-left: 100px;
+			p {
+				font-size: 14px;
+				line-height: 20px;
+				margin-top: 4px;
+				@media #{$bp-xsmall} {
+					font-size: 13px;
+					line-height: 15px;
+				}
+			}
+		}
+	}
+	.more {
+		color: #18a3fa;
+		font-size: 16px;
+		font-weight: 300;
+		text-decoration: none;
+		display: inline-block;
+		border-bottom: 1px dotted #18a3fa;
+	}
+}
+
+
+
+
+
+
+.section-faq {
+	background-color: #f9f9f9;
+	padding: 70px 0;
+	@media #{$bp-medium} {
+		padding: 50px 0;
+	}
+	@media #{$bp-small} {
+		padding: 40px 0;
+	}
+	h1 {
+		text-align: center;
+		margin: 0;
+	}
+	.owl-slider {
+		padding-top: 65px;
+		@media #{$bp-medium} {
+		      padding-top: 40px;
+		}
+		@media #{$bp-small} {
+		      padding-top: 35px;
+		}
+	}
+	.item {
+		position: relative;
+		.ico {
+			position: absolute;
+			left: 0;
+			top: 0;
+		}
+		.t-block {
+			margin-left: 70px;
+			@media #{$bp-xsmall} {
+			      margin-left: 60px;
+			}
+		}
+		.bold {
+			font-size: 15px;
+line-height: 20px;
+@media #{$bp-small} {
+      font-size: 14px;
+      line-height: 17px;
+}
+		}
+		p {
+			font-size: 14px;
+line-height: 20px;
+@media #{$bp-small} {
+      line-height: 17px;
+      font-size: 13px;
+      margin-top: 8px;
+}
+		}
+	}
+	.owl-controls {
+		text-align: center;
+		padding-top: 40px;
+		@media #{$bp-xsmall} {
+		      padding-top: 20px;
+		}
+		.owl-dots {
+			.owl-dot {
+				width: 26px;
+height: 3px;
+background-color: #d9d9d9;
+display: inline-block;
+margin: 3px;
+&.active {
+	background-color: #39c051;
+}
+			}
+		}
+	}
+}
+
+
+
+
+p {
+	color: #484848;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+	@media #{$bp-small} {
+		font-size: 14px;
+		line-height: 20px;
 	}
 }
