@@ -16,231 +16,351 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 // HTML
 <i class="icon icon-home"></i>
 */
+.ico.ico-arrow-right-big {
+  background-image: url(../img/sprite.png);
+  background-position: -253px -176px;
+  width: 15px;
+  height: 27px;
+}
+.ico.ico-arrow-right {
+  background-image: url(../img/sprite.png);
+  background-position: -427px -119px;
+  width: 6px;
+  height: 10px;
+}
 .ico.ico-benefit {
   background-image: url(../img/sprite.png);
-  background-position: -122px -102px;
+  background-position: 0px -176px;
   width: 60px;
   height: 51px;
 }
 .ico.ico-captcha {
   background-image: url(../img/sprite.png);
-  background-position: 0px -153px;
+  background-position: -128px -176px;
   width: 65px;
   height: 44px;
 }
+.ico.ico-cm-s {
+  background-image: url(../img/sprite.png);
+  background-position: -392px -201px;
+  width: 28px;
+  height: 29px;
+}
 .ico.ico-comment {
   background-image: url(../img/sprite.png);
-  background-position: -320px -138px;
+  background-position: -296px -232px;
   width: 20px;
   height: 16px;
 }
 .ico.ico-cp-1 {
   background-image: url(../img/sprite.png);
-  background-position: -308px 0px;
+  background-position: -280px -179px;
   width: 48px;
   height: 48px;
 }
 .ico.ico-cp-2 {
   background-image: url(../img/sprite.png);
-  background-position: -257px -204px;
+  background-position: -336px -168px;
   width: 51px;
   height: 51px;
 }
 .ico.ico-cp-3 {
   background-image: url(../img/sprite.png);
-  background-position: -308px -96px;
+  background-position: -392px -59px;
   width: 39px;
   height: 42px;
 }
 .ico.ico-cp-5 {
   background-image: url(../img/sprite.png);
-  background-position: -102px -255px;
+  background-position: -168px -288px;
   width: 51px;
   height: 51px;
 }
 .ico.ico-cp-6 {
   background-image: url(../img/sprite.png);
-  background-position: -199px -102px;
+  background-position: -60px -232px;
   width: 55px;
   height: 51px;
 }
+.ico.ico-download {
+  background-image: url(../img/sprite.png);
+  background-position: 0px 0px;
+  width: 64px;
+  height: 56px;
+}
 .ico.ico-effect {
   background-image: url(../img/sprite.png);
-  background-position: 0px -197px;
+  background-position: -280px -60px;
   width: 48px;
   height: 58px;
 }
 .ico.ico-faq-2 {
   background-image: url(../img/sprite.png);
-  background-position: -51px -255px;
+  background-position: -336px -224px;
   width: 51px;
   height: 51px;
 }
 .ico.ico-faq {
   background-image: url(../img/sprite.png);
-  background-position: -325px -165px;
+  background-position: -175px -344px;
   width: 17px;
   height: 16px;
 }
 .ico.ico-idea {
   background-image: url(../img/sprite.png);
-  background-position: -48px -197px;
+  background-position: -120px -232px;
   width: 54px;
+  height: 51px;
+}
+.ico.ico-like {
+  background-image: url(../img/sprite.png);
+  background-position: -280px 0px;
+  width: 51px;
+  height: 55px;
+}
+.ico.ico-loop {
+  background-image: url(../img/sprite.png);
+  background-position: -336px -56px;
+  width: 51px;
   height: 51px;
 }
 .ico.ico-m1 {
   background-image: url(../img/sprite.png);
-  background-position: -202px -255px;
+  background-position: -330px -288px;
   width: 53px;
   height: 45px;
 }
 .ico.ico-m2 {
   background-image: url(../img/sprite.png);
-  background-position: -308px -48px;
+  background-position: 0px -344px;
   width: 46px;
   height: 48px;
 }
 .ico.ico-m3 {
   background-image: url(../img/sprite.png);
-  background-position: -115px -153px;
+  background-position: -120px -344px;
   width: 50px;
   height: 24px;
 }
 .ico.ico-m4 {
   background-image: url(../img/sprite.png);
-  background-position: -65px -153px;
+  background-position: -198px -176px;
   width: 50px;
   height: 43px;
 }
+.ico.ico-minus {
+  background-image: url(../img/sprite.png);
+  background-position: -427px -134px;
+  width: 6px;
+  height: 2px;
+}
 .ico.ico-mouse {
   background-image: url(../img/sprite.png);
-  background-position: -308px -138px;
+  background-position: -425px -201px;
   width: 12px;
   height: 27px;
 }
+.ico.ico-performance {
+  background-image: url(../img/sprite.png);
+  background-position: -336px 0px;
+  width: 51px;
+  height: 51px;
+}
+.ico.ico-plus {
+  background-image: url(../img/sprite.png);
+  background-position: -427px -106px;
+  width: 8px;
+  height: 8px;
+}
 .ico.ico-project {
   background-image: url(../img/sprite.png);
-  background-position: -135px 0px;
+  background-position: -71px -120px;
   width: 64px;
   height: 51px;
 }
+.ico.ico-proxy {
+  background-image: url(../img/sprite.png);
+  background-position: -51px -344px;
+  width: 64px;
+  height: 30px;
+}
 .ico.ico-result {
   background-image: url(../img/sprite.png);
-  background-position: -153px -255px;
+  background-position: -224px -288px;
   width: 49px;
   height: 51px;
 }
 .ico.ico-simple {
   background-image: url(../img/sprite.png);
-  background-position: -135px -51px;
+  background-position: -140px -120px;
   width: 61px;
   height: 51px;
 }
+.ico.ico-success:hover {
+  background-image: url(../img/sprite.png);
+  background-position: -392px -292px;
+  width: 26px;
+  height: 21px;
+}
+.ico.ico-success {
+  background-image: url(../img/sprite.png);
+  background-position: -392px -266px;
+  width: 26px;
+  height: 21px;
+}
 .ico.ico-support {
   background-image: url(../img/sprite.png);
-  background-position: -308px -165px;
+  background-position: -296px -253px;
   width: 17px;
   height: 16px;
 }
+.ico.ico-touch {
+  background-image: url(../img/sprite.png);
+  background-position: -392px 0px;
+  width: 45px;
+  height: 54px;
+}
 .ico.ico-user {
   background-image: url(../img/sprite.png);
-  background-position: -340px -138px;
+  background-position: -423px -266px;
   width: 13px;
   height: 16px;
 }
 .ico.ico-working {
   background-image: url(../img/sprite.png);
-  background-position: -61px -102px;
+  background-position: -214px -56px;
   width: 61px;
   height: 51px;
 }
+.ico.ico-zd-3 {
+  background-image: url(../img/sprite.png);
+  background-position: -142px 0px;
+  width: 67px;
+  height: 51px;
+}
+.ico.ico-zd-4 {
+  background-image: url(../img/sprite.png);
+  background-position: -214px 0px;
+  width: 61px;
+  height: 51px;
+}
+.ico.ico-zd-5 {
+  background-image: url(../img/sprite.png);
+  background-position: -392px -106px;
+  width: 30px;
+  height: 54px;
+}
+.ico.ico-zd-s {
+  background-image: url(../img/sprite.png);
+  background-position: -392px -235px;
+  width: 30px;
+  height: 26px;
+}
+.ico.ico-zd {
+  background-image: url(../img/sprite.png);
+  background-position: 0px -61px;
+  width: 64px;
+  height: 54px;
+}
 .ico.ico-zp-1 {
   background-image: url(../img/sprite.png);
-  background-position: 0px -102px;
+  background-position: -214px -112px;
   width: 61px;
   height: 51px;
 }
 .ico.ico-zp-10 {
   background-image: url(../img/sprite.png);
-  background-position: -102px -197px;
+  background-position: -179px -232px;
   width: 54px;
   height: 51px;
 }
 .ico.ico-zp-11 {
   background-image: url(../img/sprite.png);
-  background-position: -156px -197px;
+  background-position: -238px -232px;
   width: 53px;
   height: 51px;
 }
 .ico.ico-zp-12 {
   background-image: url(../img/sprite.png);
-  background-position: -68px 0px;
+  background-position: -69px -61px;
   width: 67px;
   height: 51px;
 }
 .ico.ico-zp-13 {
   background-image: url(../img/sprite.png);
-  background-position: -257px -153px;
+  background-position: -336px -112px;
   width: 51px;
   height: 51px;
 }
 .ico.ico-zp-14 {
   background-image: url(../img/sprite.png);
-  background-position: -257px -51px;
+  background-position: -280px -123px;
   width: 51px;
   height: 51px;
 }
 .ico.ico-zp-15 {
   background-image: url(../img/sprite.png);
-  background-position: -199px 0px;
+  background-position: -65px -176px;
   width: 58px;
   height: 51px;
 }
 .ico.ico-zp-2 {
   background-image: url(../img/sprite.png);
-  background-position: -209px -197px;
+  background-position: -278px -288px;
   width: 47px;
   height: 51px;
 }
 .ico.ico-zp-3 {
   background-image: url(../img/sprite.png);
-  background-position: 0px -255px;
+  background-position: -112px -288px;
   width: 51px;
   height: 51px;
 }
 .ico.ico-zp-4 {
   background-image: url(../img/sprite.png);
-  background-position: 0px 0px;
+  background-position: -69px 0px;
   width: 68px;
   height: 51px;
 }
 .ico.ico-zp-5 {
   background-image: url(../img/sprite.png);
-  background-position: -257px -102px;
+  background-position: 0px -288px;
   width: 51px;
   height: 51px;
 }
 .ico.ico-zp-6 {
   background-image: url(../img/sprite.png);
-  background-position: -257px 0px;
+  background-position: -56px -288px;
   width: 51px;
   height: 51px;
 }
 .ico.ico-zp-7 {
   background-image: url(../img/sprite.png);
-  background-position: -66px -51px;
+  background-position: -142px -56px;
   width: 66px;
   height: 51px;
 }
 .ico.ico-zp-8 {
   background-image: url(../img/sprite.png);
-  background-position: 0px -51px;
+  background-position: 0px -120px;
   width: 66px;
   height: 51px;
 }
 .ico.ico-zp-9 {
   background-image: url(../img/sprite.png);
-  background-position: -199px -51px;
+  background-position: 0px -232px;
   width: 55px;
   height: 51px;
+}
+.ico.ico-zp-s {
+  background-image: url(../img/sprite.png);
+  background-position: -392px -165px;
+  width: 37px;
+  height: 31px;
+}
+.ico.ico-zpx-s {
+  background-image: url(../img/sprite.png);
+  background-position: -392px -318px;
+  width: 30px;
+  height: 14px;
 }
